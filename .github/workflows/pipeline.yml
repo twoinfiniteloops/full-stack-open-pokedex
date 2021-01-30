@@ -10,9 +10,9 @@ jobs:
     runs_on: ubuntu-18.04
     steps:
       - name: "Run actions/checkout@v2"
-      - uses: actions/checkout@v2
+        uses: actions/checkout@v2
       - name: "Run actions/setup-node@v1"
-      - uses: actions/setup-node@v1
+        uses: actions/setup-node@v1
         with:
           node_version: "12.x"
       - name: "npm install"
