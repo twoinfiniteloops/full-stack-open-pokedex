@@ -1,0 +1,15 @@
+---
+name: "Dogu's first CI file"
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: hello_world
+        run: | 
+          echo "pinarbasi!"
+...
