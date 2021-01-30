@@ -12,7 +12,7 @@ jobs:
       - name: "Run actions/checkout@v2"
         uses: actions/checkout@v2
       - name: "ls"
-        run: "ls -al"
+        run: ls -al
       - name: "Run actions/setup-node@v1"
         uses: actions/setup-node@v1
         with:
