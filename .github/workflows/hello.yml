@@ -12,4 +12,6 @@ jobs:
       - name: hello_world
         run: | 
           echo "pinarbasi!"
+          date
+          ls -l
 ...
